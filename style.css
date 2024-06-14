@@ -1,0 +1,1875 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.205);
+    
+    width: 100%;
+}
+.p_50{
+    display: flex;
+    margin-left: 10px;
+}
+.market_50{
+    color: green;
+}
+.Buy_now{
+    margin: 10px;
+   
+}
+.Buy_now div 
+{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.Buy_now div a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav_left{
+ 
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+.h1_largx{
+    font-size: 40px;
+   
+}
+.p_smull{
+    font-family: monospace;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 245px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(34, 33, 33, 0.712);
+
+
+}
+
+
+
+.rihgt{
+    display: flex;
+    justify-content: center;
+ 
+}
+.rihgt a{
+    margin: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+.rihgt {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+/* .hr_nav {
+    border: rgba(63, 8, 8, 0.205) solid 1px;
+} */
+
+.sec_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, black, rgba(255, 255, 255, 0.205));
+
+    
+    
+}
+.sec_rihgt1 p{
+    color: white;
+    /* display: flex;
+    justify-content: space-around; */
+    margin-left: 100px;
+
+}
+h1{
+    color: white;
+    margin-left: 100px;
+    font-size: 40px;
+}
+.loka{
+    border: white solid 1px;
+    margin-left: 100px;
+    width: 58px;
+}
+.loreem{
+    color: white;
+    margin-left: 100px;
+}
+
+.icon_video{
+  
+    color: white;
+    font-size: 50px;
+    margin-left: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+ 
+}
+.icon_video .fa-play{
+    border-radius: 50%;
+    background-color: rgb(194, 180, 180);
+    padding: 15px;
+  
+    /* box-shadow: 10px 10px 10px 1px ; */
+}
+
+.About_Us{
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+    font-size: 50%;
+}
+.Diaa{
+    border: rgba(255, 255, 255, 0.13) solid 1px;
+    margin-left: 100px;
+    width: 135px;
+    position: relative;
+    bottom:  10px;
+}
+.malak{
+ 
+    position: relative;
+    top: 40px;
+    left: 10px;
+   
+    font-size: 15px
+
+}
+.sec_2{
+    display: flex;
+    justify-content: center;
+}
+.divlift{
+    color: white;
+   
+}
+.paragraph_1{
+    position: relative;
+top: 100px;
+
+}
+
+.h1_left
+{
+    position: relative;
+    top:   100px;
+    right: 100px;
+}
+.hr_left{
+    position: relative;
+    top: 120px;
+    width: 75px;
+}
+.paragraph_2{
+    position: relative;
+    top: 150px;
+    
+}
+.VIEW_ALL{
+    position: relative;
+    top: 200px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 100px;
+    background-color: rgb(182, 182, 182);
+    color: white;
+    text-decoration: none;
+   
+}
+
+
+   /* .img_1{
+   
+    position: relative;
+    background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.205));
+    bottom: -20px;
+    padding: 10px;
+    margin-left: 15px;
+    
+}
+.img_2{
+    
+    margin-top: 100px;
+    background-color: rgba(61, 60, 60, 0.212);
+    padding: 10px;
+    margin-left: -50px;
+    
+}
+
+
+
+
+.img_3{
+   
+    background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.205));
+    padding: 10px;
+    margin-left: -50px;
+}
+.img_4{
+    margin-top: 30px;
+   background-color: rgba(61, 60, 60, 0.212);
+    position: relative;
+    bottom: -20px;
+    padding: 10px;
+    margin-left: 15px;
+}  */
+    
+     /* .img_1{
+        margin-top: 100px;
+        background-color: rgba(61, 60, 60, 0.212);
+        padding: 10px;
+        margin-left: -50px;
+         
+        
+    }
+    .img_12{
+        color: white;
+        position: absolute;
+        top: 50px;
+    }
+ */
+
+.img1 h3 {
+    color: white;
+    margin-left: 80px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+.img1 p {
+    color: white;
+    margin-left: 40px;
+}
+
+.img1 .tochalleenge{
+    margin-left: 110px;
+}
+.img1{
+    position: relative;
+    background-color: rgba(61, 60, 60, 0.212);
+    bottom: -20px;
+    padding: 10px;
+    margin-left: 15px;
+   transition: all 0.6s ease;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.img1 img{
+    margin-left: 80px;
+    
+}
+
+.img2 .H2_img2{
+    color: white;
+    margin-left: 100px;
+    position: relative;
+    right:   45px;
+}
+.img2 .cPARA_IMG2{
+    color: white;
+    margin-left: -75px;
+    position: absolute;
+    left: 100px;
+}
+
+.img2 .para_img2{
+    color: white;
+    margin-left: 100px;
+}
+.img2 {
+    background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.205));
+    
+}
+.img2 img{
+    position: relative;
+    margin-left: 75px;
+    
+}
+.sec_imagess{
+    display: flex;
+}
+
+.img1{
+   
+   top: 100px;
+    
+}
+
+.img2{
+    margin-top: 150px;
+    padding-right: 10px;
+    
+    margin: 4px;
+   
+  
+   
+    transition: all 0.6s ease;
+
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img2{
+    position: relative;
+    top: 150px;
+    left: 60px;
+}
+.img1{
+    left: 40px;
+   
+}
+
+
+.img3{
+    position: absolute;
+    top: 1250px;
+    left: 630px;
+    background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.205));
+    padding-right: 30px;
+    transition: all 0.6s ease;
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+.img3 .H2_img3{
+    color: white;
+    position: relative;
+    margin-left: 60px;
+}
+.img3 .cPARA_IMG3{
+    color: white;
+   
+    margin-left: 40px;
+}
+ .img3 .tochalleenge3{
+    color: white;
+    position: relative;
+    margin-left: 100px;
+ }
+.img3 img
+{
+    position: relative;
+    margin-left: 80px;
+}
+
+.img4{
+    position: absolute;
+    bottom: -950px;
+    right: 92px;
+    background-color: rgba(61, 60, 60, 0.212);
+    padding-right: 30px;
+    padding-top: 15px;
+    transition: all 0.6s ease;
+}
+.img4:hover{
+    transform: scale(1.1);
+}
+.img4 .H2_img4{
+    color: white;
+    position: relative;
+    margin-left: 50px;
+}
+.img4 img
+{
+    position: relative;
+    margin-left: 90px;
+}
+.img4 .cPARA_IMG4{
+    color: white;
+   
+    margin-left: 20px;
+}
+
+.img4 .tochalleenge4{
+    color: white;
+    position: relative;
+    margin-left: 100px;
+}
+
+.img4 img
+{
+    position: relative;
+    margin-left: 60px;
+}
+
+
+.fader{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+.imagessssss{
+    position: absolute;
+    right: 800px;
+    top: 1800px;
+
+}
+
+.sec_3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.sec_image img{
+    position: relative;
+    top: 700px;
+}
+
+.sec_3
+{
+    background-color: rgba(61, 60, 60, 0.212);
+    width: 100%;
+    height: 525px;
+    position: relative;
+    top: 600px;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+  
+}
+.sec3_Untitled img{
+   margin-left: 84px;
+}
+
+.sec_paragraph3{
+    position: relative;
+    top: 5px;
+    color: white;
+}
+
+
+
+
+.sec3_h1{
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+.sec3_hr{
+    position: relative;
+    top: 30px;
+    width: 14%;
+    border: 1px solid ;
+}
+.sec3_lorem
+{
+    color: white;
+    position: relative;
+    top: 40px;
+}
+
+
+
+
+.sec3_CleanCode
+{
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 80px;
+}
+
+.sec3_loreem{
+    color: rgba(255, 255, 255, 0.582);
+    position: relative;
+    top: 45px;
+    left: 80px;
+    font-size: 12px;
+}
+.sec3_immmgg {
+    position: relative;
+    top: 80px;
+}
+
+.sec3_IMG
+{
+    position: relative;
+    top: 250px;
+    right: 300px;
+}
+.sec3h1{
+    color: white;
+    position: relative;
+    top: 200px;
+    right: 240px;
+}
+.sec3_LOREM
+{
+    color: rgba(255, 255, 255, 0.582);
+    position: relative;
+    top: 210px;
+    right: 240px;
+    font-size: 12px;
+}
+
+.sec_4{
+    width: 100%;
+    height: 300%;
+  
+    position: relative;
+    top: 600px;
+    background: linear-gradient(to left, rgb(12, 11, 11), rgba(255, 255, 255, 0.247));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.sec444444{
+    color: white;
+}
+
+
+.plus1{
+    position: absolute;
+    top: 175px;
+    left: 157px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+.sec4_img1{
+    position: relative;
+    left: 200px;
+    top: 5px;
+    transition: all 0.6s ease;
+}
+.sec4_img1:hover{
+    transform: scale(1.1);
+}
+
+.sec4_150{
+    position: relative;
+    left: 200px;
+    font-size: 50px;
+    top: 5px;
+}
+.plus1{
+    position: absolute;
+    top: 198px;
+    left: 412px;
+    font-size: 25px;
+}
+
+.ProjectDone{
+    position: absolute;
+    top: 239px;
+    right: 920px;
+}
+
+
+
+
+
+
+/* .PLUS2{
+    position: absolute;
+    top: 175px;
+    right: 864px;
+    font-size: 25px;
+} */
+
+
+
+
+.sec4_img2{
+    position: relative;
+    left: 200px;
+    top: 15px;
+    transition: all 0.6s ease;
+}
+.sec4_img2:hover{
+    transform: scale(1.1);
+}
+
+
+.sec4_75{
+    position: relative;
+    left: 220px;
+    font-size: 50px;
+    top: 25px;
+}
+
+.PLUS2{
+    position: absolute;
+    top: 198px;
+    left: 630px;
+    font-size: 25px;
+}
+
+.HappyCostumer{
+    position: absolute;
+    top: 239px;
+    right: 680px;
+}
+
+
+
+/* .plus3{
+    position: absolute;
+    top: 175px;
+    right: 515px;
+    font-size: 25px;
+} */
+
+
+.sec4_img3
+{
+    position: relative;
+    left: 200px;
+    top: 5px;
+    transition: all 0.6s ease;
+}
+.sec4_img3:hover{
+    transform: scale(1.1);
+}
+
+.sec4_h120{
+    position: relative;
+    left: 220px;
+    font-size: 50px;
+    top: 10px;
+}
+
+
+._sec4_plus3{
+    position: absolute;
+    top: 200px;
+    right: 477px;
+    font-size: 25px;
+}
+
+.AwardWinning {
+    position: absolute;
+    top: 238px;
+    right: 455px;
+}
+
+
+
+.sec4_img{
+    position: relative;
+    left: 200px;
+    bottom: 5px;
+    transition: all 0.6s ease;
+}
+.sec4_img:hover{
+    transform: scale(1.1);
+}
+.sec4_h245{
+    position: relative;
+    left: 220px;
+    font-size: 50px;
+    top: 10px;
+}
+
+.plus4{
+    position: absolute;
+    top: 200px;
+    right: 250px;
+    font-size: 25px;
+}
+
+.TeamMembers{
+    position: absolute;
+    top: 240px;
+    right: 230px;
+    
+}
+
+/* .sec_4 .sec4imgggggggggggg{
+    
+
+
+   position: relative;
+   z-index: -1;
+ max-width: 100vh;
+    height: 50vh;
+
+ 
+   
+
+    
+} */
+
+.sec_4 .sec4imgggggggggggg{
+    background-image: url(3.jpg);
+      position: relative;
+    z-index: -1;
+  max-width: 100vh;
+     height: 50vh;
+}
+
+.section_5{
+    width: 100%;
+    height: 500px;
+  
+    position: relative;
+    top: 600px;
+ background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.LATESTPROECT{
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+.section5_h1{
+    color: white;
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+}
+.section5_hr{
+    width: 80px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+}
+.section5_lorem{
+    color: rgba(255, 255, 255, 0.575);
+    position: relative;
+    left: 50px;
+    top: 20px;
+
+   
+}
+.section5_img{
+    position: relative;
+    right: 105px;
+    transition: all 0.6s ease;
+}
+.section5_img:hover{
+    transform: scale(1.1);
+}
+.section5_lorem2{
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 80px;
+}
+.section5_check{
+    color: white;
+    position: relative;
+    top: 98px;
+    left: 50px;
+}
+.section5_check2{
+    color: white;
+    position: relative;
+    top: 115px;
+    left: 50px;
+  
+}
+
+.section5_images{
+    display: flex;
+    position: absolute;
+    top: 440px;
+    left: 270px;
+    }
+    
+    .section5_images img{
+    transition: all 0.6s ease;
+}
+
+.section5_images img:hover{
+    transform: scale(1.1);
+}
+.section_6{
+    width: 100%;
+    height: 200px;
+  
+    position: relative;
+    top: 950px;
+    background: linear-gradient(to right, rgb(12, 11, 11), rgba(255, 255, 255, 0.247));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section6_img{
+ 
+      position: relative;
+      top: 55px;
+    z-index: -1;
+  max-width: 50vh;
+     height: 50vh;
+}
+.section6_imgs{
+    display: flex;
+    position: relative;
+    right:150px;
+   transition: all 0.6s ease;
+  
+ 
+}
+
+
+.section6_imgs:hover{
+    transform: scale(1.1);
+}
+
+.section_7 {
+    width: 100%;
+    height: 100px;
+  
+    position: relative;
+    top: 1045px;
+ background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section7_p{
+    color: white;
+    position: absolute;
+    left: 150px;
+}
+.section7_30Years{
+    display: flex;
+    position: absolute;
+    left: 40px;
+    top: 80px;
+}
+.section7_Experience{
+    color: rgba(255, 255, 255, 0.562);
+    font-size: 35px;
+    position: absolute;
+    left: 266px;
+    top: 5px;
+}
+
+.section7_lorem
+{
+    color: white;
+    position: absolute;
+    left: 540px;
+    top: 110px;
+}
+.section7_Agency{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+.section7_para{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+}
+.section7_check{
+    font-size: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 190px;
+    color: rgba(255, 255, 255, 0.562);
+
+}
+.section7_check2{
+    position: absolute;
+    top: 35px;
+    right: 1px;
+    color: rgba(255, 255, 255, 0.562);
+   
+}
+.section7_img1{
+    position: absolute;
+    top: 420px;
+    left: 150px;
+    transition: all 0.6s ease;
+}
+
+.section7_img1:hover{
+    transform: scale(1.1);
+}
+.section7_iconvedio{
+    color: rgb(230, 219, 219);
+    font-size: 80px;
+    position: absolute;
+    top: 100px;
+    right: 210px;
+}
+.section7_img2{
+    position: absolute;
+    top: 550px;
+    right: 240px;
+    transition: all 0.6s ease;
+}
+
+.section7_img2:hover{
+    transform: scale(1.1);
+}
+
+.section7_iconvedio2{
+    color: rgb(230, 219, 219);
+    font-size: 80px;
+    position: absolute;
+    top: 115px;
+    right: 180px;
+}
+
+
+.section_8{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 33, 33, 0.712);
+    width: 100%;
+    height: 1050px;
+    position: absolute;
+    top:  4650px;
+    
+   
+}
+.section8_OURTEAM{
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 620px;
+}
+.section8_MeetExpert
+{
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 400px;
+}
+.section8_Team{
+    color: white;
+    position: absolute;
+    top: 162px;
+    left: 642px;
+}
+.section8_hr{
+    color: white;
+    width: 80px;
+    position: absolute;
+    top: 230px;
+    left: 635px;
+}
+.section8_loreeeem{
+    color: rgba(255, 255, 255, 0.582);
+    
+    position: absolute;
+    top: 260px;
+    left: 290px;
+}
+.section8_loreeeem2{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 300px;
+    left: 420px;
+}
+
+.section8_img1{
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(22, 19, 19, 0.849);
+    transition: all 0.6s ease;
+}
+.section8_img1:hover{
+    transform: scale(1.1);
+}
+.section8_MikeWashoski{
+    position: absolute;
+    width: 200px;
+    left: 220px;
+    top: 25px;
+    color: white;
+}
+.section8_Designer{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 70px;
+    left: 220px;
+}
+.section8_LOOORem{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 125px;
+    left: 220px;
+}
+.fa-facebook{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 220px;
+    left: 217px;
+}
+.fa-twitter{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 221px;
+    left: 255px;
+}
+.fa-instagram{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 221px;
+    left: 295px;
+}
+.section8_img2{
+    position: absolute;
+    top: 380px;
+    left: 664px;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(22, 19, 19, 0.849);
+    z-index: 1;
+    transition: all 0.6s ease;
+}
+.section8_img2:hover{
+    transform: scale(1.1);
+}
+.section8_MikeWashoski_img2{
+    position: absolute;
+    width: 200px;
+    left: 220px;
+    top: 25px;
+    color: white;
+}
+.section8_Designer_img2{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 70px;
+    left: 220px;
+}
+.section8_LOOORem_img2{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 125px;
+    left: 220px;
+}
+
+.fa-facebook{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 220px;
+    left: 217px;
+}
+.fa-twitter{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 221px;
+    left: 255px;
+}
+.fa-instagram{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 221px;
+    left: 295px;
+}
+.section8_img3{
+    position: absolute;
+    top: 680px;
+    left: 150px;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(22, 19, 19, 0.849);
+    transition: all 0.6s ease;
+}
+.section8_img3:hover{
+    transform: scale(1.1);
+}
+.section8_MikeWashoski_img3{
+    position: absolute;
+    width: 200px;
+    left: 220px;
+    top: 25px;
+    color: white;
+    
+}
+.section8_Designer_img3{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 70px;
+    left: 220px;
+}
+.section8_LOOORem_img3{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 125px;
+    left: 220px;
+}
+
+
+.fa-facebook{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 220px;
+    left: 217px;
+}
+.fa-twitter{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 221px;
+    left: 255px;
+}
+.fa-instagram{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 221px;
+    left: 295px;
+}
+.section8_img4{
+    position: absolute;
+    top: 680px;
+    left: 664px;
+    width: 500px;
+    height: 250px;
+    z-index: 1;
+    background-color: rgba(22, 19, 19, 0.849);
+    transition: all 0.6s ease;
+}
+.section8_img4:hover{
+    transform: scale(1.1);
+}
+.section8_MikeWashoski_img4{
+    position: absolute;
+    width: 200px;
+    left: 220px;
+    top: 25px;
+    color: white;
+    
+}
+.section8_Designer_img4{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 70px;
+    left: 220px;
+}
+.section8_LOOORem_img4{
+    color: rgba(255, 255, 255, 0.582);
+   
+    position: absolute;
+    top: 125px;
+    left: 220px;
+}
+.fa-facebook{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 220px;
+    left: 217px;
+}
+.fa-twitter{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 221px;
+    left: 255px;
+}
+.fa-instagram{
+    color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 221px;
+    left: 295px;
+
+}
+.section8_img_right{
+    position: absolute;
+    top: 262px;
+    right: 0px;
+    background-size: cover;
+    z-index: -1;
+    
+}
+.section8_img_right_1{
+    position: absolute;
+  bottom: 720px;
+}
+.section_9{
+   display: flex;
+   justify-content: center;
+   
+   width: 100%;
+   height: 900px;
+   position: absolute;
+   top: 5800px;
+}
+.section9_worlds .section9_PORTFOLIO{
+    color: white;
+    position: absolute;
+    left: 615px;
+}
+.section9_worlds .section9_Latest{
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 415px;
+    font-size: 50px;
+}
+.section9_Work{
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 50px;
+    position: absolute;
+    top: 42px;
+    left: 680px;
+    font-weight: bold;
+}
+
+.section9_hr{
+    width: 100px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 610px;
+
+}
+.section9_loooorem{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 270px;
+}
+.section9_loooorem2{
+    color: white;
+    position: absolute;
+    top: 185px;
+    left: 402px;
+}
+
+.section9_images{
+    position: absolute;
+    top: 250px;
+}
+.section9_images{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.section9_img1{
+    margin-right: 20px;
+    transition: all 0.6s ease;
+}
+
+.section9_img1:hover{
+    transform: scale(1.1);
+}
+.section9_images_line2{
+    position: absolute;
+    top: 620px;
+}
+.section9_images_line2{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.section9_img2{
+    margin-right: 20px;
+    transition: all 0.6s ease;
+}
+
+.section9_img2:hover{
+    transform: scale(1.1);
+}
+
+.section9_images_line3{
+    position: absolute;
+    top: 990px;
+}
+.section9_images_line3{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.section9_img3{
+    margin-right: 20px;
+    transition: all 0.6s ease;
+}
+.section9_img3:hover{
+    transform: scale(1.1);
+}
+
+.section_10{
+    background-color: rgba(34, 33, 33, 0.712);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 7250px;
+    
+}
+.section10_img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section10_img img{
+    height: 535px;
+    width: 85%;
+    z-index: -1;
+    position: absolute;
+    bottom: 1px;
+}
+.section10_TESTIMONIALS{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.section10_What{
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+.section10_Client
+{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 181px;
+    left: 260px;
+}
+.section10_Says{
+    color: white;
+    position: absolute;
+    top: 182px;
+    left: 380px;
+}
+.section10_hr{
+    width: 80px;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 246px;
+}
+.section10_lllllorem{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 270px;
+    left: 246px;
+    
+}
+.section10_VIEWALLTESTIMONIALS{
+    text-decoration: none;
+    border: solid 1px rgb(182, 182, 182);;
+    padding: 20px;
+    color: white;
+    background-color: rgb(182, 182, 182);
+    position: absolute;
+    top: 400px;
+    left: 246px;
+}
+.section10_container{
+    position: absolute;
+    top: 170px;
+    left: 800px;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(22, 19, 19, 0.849);
+    transition: all 0.6s ease;
+}
+.section10_container:hover{
+    transform: scale(1.1);
+}
+.section10_LoReM{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 40px;
+   left: 20px;
+}
+.section10_containerimg{
+  
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    /* border-radius: 220px; */
+}
+.section10_containerimg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.section10_AdamSmith{
+    color: white;
+    position: absolute;
+    left: 110px;
+    top: 170px;
+}
+.section10_Businessman{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    left: 110px;
+    top: 205px;
+    font-size: 12px;
+}
+.fa-quote-right{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 430px;
+    top: 178px;
+}
+
+.section_11{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 7750px;
+}
+.section11_OURBLOG{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 100px;
+    left: 620px;
+}
+.section11_OurLatest{
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+
+}
+.section11_News{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 141px;
+    left: 610px; 
+}
+.section11_hr{
+    color: white;
+    width: 80px;
+    position: absolute;
+    top: 200px;
+    left: 630px; 
+}
+.section11_LORem{
+    color: white;
+    position: absolute;
+    top: 225px;
+    left: 300px; 
+}
+.section11_LORem2{
+    color: white;
+    position: absolute;
+    top: 255px;
+    left: 433px; 
+}
+.section11_imgessss{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 400px;
+    left: 90px;
+}
+.section11_imges1{
+    margin-left: 45px;
+    transition: all 0.6s ease;
+}
+
+.section11_imges1:hover{
+    transform: scale(1.1);
+}
+
+
+.section11_h3{
+    color: rgb(230, 218, 198);
+    margin-top: 20px;
+}
+.section11_para{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+}
+.fa-calendar-days{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+}
+.section11_para2{
+    color: white;
+    margin-left: 30px;
+  position: absolute;
+  bottom: 0px;
+   
+}
+.fa-list-ul{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+    margin-left: 145px;
+    border: 2px solid;
+    padding: 1px;
+}
+.section11_Business{
+    color: white;
+    margin-left: 200px;
+  position: absolute;
+  bottom: 0px;
+}
+.section11_h3_img2{
+    color: rgb(230, 218, 198);
+    margin-top: 20px;
+}
+.section11_para_img2{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+}
+.fa-calendar-days{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+}
+.section11_para222_img2{
+    color: white;
+    margin-left: 30px;
+  position: absolute;
+  bottom: 0px;
+}
+.fa-list-ul{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+    margin-left: 145px;
+    border: 2px solid;
+    padding: 1px;
+}
+.section11_Business_img2{
+    color: white;
+    margin-left: 200px;
+  position: absolute;
+  bottom: 0px;
+}
+.section11_h3_img3{
+    color: rgb(230, 218, 198);
+    margin-top: 20px;
+}
+.section11_para_img3{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+}
+.fa-calendar-days{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+}
+.section11_para222_img3{
+    color: white;
+    margin-left: 30px;
+  position: absolute;
+  bottom: 0px;
+}
+.fa-list-ul{
+    color: rgba(255, 255, 255, 0.582);
+    margin-top: 30px;
+    margin-left: 145px;
+    border: 2px solid;
+    padding: 1px;
+}
+.section11_Business_img3{
+    color: white;
+    margin-left: 200px;
+    position: absolute;
+    bottom: 0px;
+}
+.section_12{
+    background-color: rgba(34, 33, 33, 0.712);
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 8750px;
+    display: flex;
+    justify-content: space-around;
+}
+.section12_img{
+   position: relative;
+   right: 100px;
+}
+.section12_Fieldset{
+    padding: 15px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    padding-bottom: 100px;
+    
+}
+.label_input1{
+    color: white;
+    
+}
+.input1{
+    background-color: rgba(34, 33, 33, 0.116);
+    border: 1px white solid;
+    height: 40px;
+    color: white;
+    
+}
+
+.section12_textarea{
+    background-color: rgba(34, 33, 33, 0.116);
+}
+.section12_SENDMESSAGE{
+    padding: 20px;
+ color: white;
+ background-color: rgb(182, 182, 182);
+text-align: center;
+width: 450px;
+
+
+}
+.link{
+    text-decoration: none;
+   
+}
+.section_12_right_words{
+    color: white;
+    position: absolute;
+    top: 100px;
+    right: 470px;
+}
+.section_12_right_GetIn{
+    color: white;
+    position: absolute;
+    top: 140px;
+    right: 520px;
+}
+.section_12_right_Touch{
+    color: rgba(221, 211, 192, 0.836);
+    position: absolute;
+    top: 142px;
+    right: 380px;
+    font-weight: bold;
+}
+.section12_hr{
+    color: white;
+    width: 70px;
+    position: absolute;
+    top: 200px;
+    right: 560px;
+}
+.section12_para{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 230px;
+    right: 95px;
+}
+.fa-location-dot{
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 40px;
+    position: absolute;
+    top: 370px;
+    right: 600px;
+}
+.section12_OfficeAddress{
+    color: white;
+    
+    position: absolute;
+    top: 385px;
+    right: 450px;
+}
+.section12_Address{
+    color: rgba(255, 255, 255, 0.726);
+    position: absolute;
+    top: 410px;
+    right: 230px;
+}
+.fa-phone{
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 40px;
+    position: absolute;
+    top: 440px;
+    right: 590px;
+}
+.section12_CallUs{
+    
+    color: white;
+    
+    position: absolute;
+    top: 450px;
+    right: 490px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.section12_phone{
+    color: rgba(255, 255, 255, 0.726);
+    position: absolute;
+    top: 490px;
+    right: 400px;
+}
+.fa-envelope-open{
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 40px;
+    position: absolute;
+    top: 530px;
+    right: 590px;
+}
+.section12_MailUs{
+    color: white;
+    
+    position: absolute;
+    top: 540px;
+    right: 480px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.section12_mail{
+    color: rgba(255, 255, 255, 0.726);
+    position: absolute;
+    top: 579px;
+    right: 370px;
+}
+.section_13{
+    /* background: linear-gradient(  black, rgba(255, 255, 255, 0.205)); */
+
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 9451px;
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+.section13_center{
+    background-image: radial-gradient(rgba(119, 96, 96, 0.336), black);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+   
+  
+ 
+}
+.section13_Cruativo{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+
+.section12_CREATIVEAGENCY{
+    color: rgba(255, 255, 255, 0.726);
+    position: absolute;
+    top: 130px;
+    left: 620px;
+    font-size: 10px;
+}
+.section12_AGENCY{
+    color: rgba(255, 255, 255, 0.726);
+    position: absolute;
+    top: 130px;
+    left: 700px;
+    font-size: 10px;
+}
+
+
+.links{
+    
+    position: absolute;
+    top: 200px;
+    left: 400px;
+
+}
+.Home{
+    color: rgba(255, 255, 255, 0.623);
+    text-decoration: none;
+    margin: 15px;
+    
+}
+.section13_lorEMEM{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 300px;
+    left: 460px;
+}
+.section13_lorEMEM2{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 330px;
+    left: 550px;
+}
+.FACEBOOK{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 400px;
+    left: 580px;
+    font-size: 20px;
+   
+}
+.TWITTER{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 400px;
+    left: 630px;
+    font-size: 20px;
+}
+.INSTAGRAM{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 400px;
+    left: 680px;
+    font-size: 20px
+}
+.WHATSAPP{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 400px;
+    left: 730px;
+   
+    font-size: 20px
+}
+
+.Copyright{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 450px;
+    left: 420px;
+
+}
+.fa-copyright{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 451px;
+    left: 495px;
+}
+.section13_world{
+    color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top: 451px;
+    left: 518px;
+}
